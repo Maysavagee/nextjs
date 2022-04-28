@@ -8,7 +8,7 @@ export default function Post({ post }) {
     <>
       <Head>
         <title>Post #{post.id}</title>
-        <meta name="description" content="En este curso aprenderas sobre NextJS"/>
+        <meta name="description" content="NextJS"/>
       </Head>
       <Title>Post Details</Title>
       <div className='card'>

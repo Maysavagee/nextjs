@@ -14,7 +14,7 @@ export default function User({ user }) {
     <>
       <Head>
         <title>User #{user.id}</title>
-        <meta name="description" content="En este curso aprenderas sobre NextJS"/>
+        <meta name="description" content="NextJS"/>
       </Head>
       <Title>User ID {user.id}</Title>
       <div className='card'>

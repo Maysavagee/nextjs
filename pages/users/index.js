@@ -7,7 +7,7 @@ export default function Users({ users }) {
     <>
       <Head>
         <title>Landing page de users</title>
-        <meta name="description" content="En este curso aprenderas sobre NextJS"/>
+        <meta name="description" content="NextJS"/>
       </Head>
       <Title>Users Page</Title>
       <div className='grid'>

@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Aprendamos NextJS con Webtoriales</title>
+        <title>Aprendamos NextJS</title>
         <meta name="description" content="En este curso aprenderas sobre NextJS"/>
       </Head>
       <Title>Home Page</Title>
-      <p>Aprendamos NextJS con Webtoriales!</p>
+      <p>Aprendamos NextJS!</p>
       <style>
         {`
           p {

@@ -20,7 +20,7 @@ export default function Posts({ posts }) {
     <>
       <Head>
         <title>Landing page de posts</title>
-        <meta name="description" content="En este curso aprenderas sobre NextJS"/>
+        <meta name="description" content="NextJS"/>
       </Head>
       <Title>Posts Page</Title>
       <div className='grid'>
