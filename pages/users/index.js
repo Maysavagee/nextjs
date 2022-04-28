@@ -1,10 +1,14 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Title from '../../components/title';
-import Layout from '../../components/layout';
 
 export default function Users({ users }) {
   return(
-    <Layout>
+    <>
+      <Head>
+        <title>Landing page de users</title>
+        <meta name="description" content="En este curso aprenderas sobre NextJS"/>
+      </Head>
       <Title>Users Page</Title>
       <div className='grid'>
         {users.map(user => {
@@ -57,7 +61,7 @@ export default function Users({ users }) {
         }
       `}
       </style>
-    </Layout>
+    </>
   )
 }
 

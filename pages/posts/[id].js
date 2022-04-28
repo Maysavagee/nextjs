@@ -1,11 +1,15 @@
+import Head from 'next/head';
 import Title from '../../components/title';
-import Layout from '../../components/layout';
 
 export default function Post({ post }) {
   // const router = useRouter();
 
   return (
-    <Layout>
+    <>
+      <Head>
+        <title>Post #{post.id}</title>
+        <meta name="description" content="En este curso aprenderas sobre NextJS"/>
+      </Head>
       <Title>Post Details</Title>
       <div className='card'>
         <h2>{post.title}</h2>
@@ -41,7 +45,7 @@ export default function Post({ post }) {
         }
       `}
       </style>
-    </Layout>
+    </>
   )
 }
 
